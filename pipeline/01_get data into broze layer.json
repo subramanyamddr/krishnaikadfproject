@@ -180,6 +180,33 @@
 						"type": "DatasetReference"
 					}
 				]
+			},
+			{
+				"name": "bronze to silver layer",
+				"type": "DatabricksNotebook",
+				"dependsOn": [
+					{
+						"activity": "Copy data from mysql server",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Users/subramanyamddr@gmail.com/databricks/01_krishnaik_adf_adb_project1_data_transformations"
+				},
+				"linkedServiceName": {
+					"referenceName": "azDatabricksLS",
+					"type": "LinkedServiceReference"
+				}
 			}
 		],
 		"annotations": [],
