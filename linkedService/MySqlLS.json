@@ -1,0 +1,18 @@
+{
+	"name": "MySqlLS",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "MySql",
+		"typeProperties": {
+			"server": "2ywsqz.h.filess.io",
+			"port": "3307",
+			"database": "olistproject_getwantact",
+			"username": "olistproject_getwantact",
+			"sslMode": 1,
+			"useSystemTrustStore": 0,
+			"driverVersion": "v2",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEI0OTYwRjg5LTM0QkYtNDQ3OS1CQzlDLURFMTI2RDNENUM0NV8yMzllYmFiZC1jMzYxLTQwYzktOTQzMC0zNzgyMjU2ZTBlNjQiDQp9"
+		}
+	}
+}
