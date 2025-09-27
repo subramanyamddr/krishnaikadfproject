@@ -1,0 +1,20 @@
+{
+	"name": "jsonLookupData",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LSADLSgen2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "ForEachInput.json",
+				"fileSystem": "metadata"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

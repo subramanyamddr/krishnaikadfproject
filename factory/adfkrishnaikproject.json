@@ -1,0 +1,9 @@
+{
+	"name": "adfkrishnaikproject",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "1a3b27d3-d4e6-431c-ad6b-1de77e7eb4c4",
+		"tenantId": "a3d3d0f0-6b19-40dc-a740-67ee247d38f0"
+	}
+}
